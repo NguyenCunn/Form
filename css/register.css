@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper{
+    background: transparent;
+    width: 420px;
+    color: white;
+    border-radius: 12px;
+    padding: 30px 40px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin: 30px 0;
+}
+
+.wrapper .input-box input{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 45px 20px 20px;
+}
+
+.wrapper .input-box input::placeholder{
+    color: white;
+}
+
+.wrapper .input-box i{
+    position: absolute;
+    right: 30px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.wrapper button{
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.wrapper .login-link{
+    text-align: center;
+    font-size: 16px;
+    margin: 15px 0 15px;
+}
+
+.login-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 4px;
+}
+.login-link p a:hover{
+    text-decoration: underline;
+}
